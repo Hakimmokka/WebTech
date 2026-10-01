@@ -16,34 +16,34 @@ body {
 a {
   color: green;
 }
-
+/* alle links worden de kleur groend */
 /* ---- vraag 2 ---- */
 .v2-tekst {
   color: red;
 }
-
+/* de tekst van vraag 2 word rood*/
 .v2-tekst {
   color: blue;
 }
-
+/* de tekst van vraag 2 word blauw */
 /* ---- vraag 3 ---- */
 .opvallend {
   color: red;
 }
-
+/* in vraag 3 word een deel van de tekst rood */
 em {
   color: blue;
 }
-
+/* het verdikt de tekst en maakt het blauw */
 /* ---- vraag 4 ---- */
 .v4 > a {
   color: green;
 }
-
+/* .v4 class bestaat niet maar als het zou bestaan dan zou de eenvolgende a de kleur groen krijgen */
 .v4 a {
   color: red;
 }
-
+/* .v4 a class bestaat niet dus het zal niets doen */
 /* ---- vraag 5 ---- */
 .een.twee.drie {
   color: red;
@@ -85,5 +85,4 @@ h3 {
 .v10-tekst {
   color: green;
   font-size: 1.5rem
-  color: blue;
 }
